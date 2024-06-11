@@ -71,9 +71,9 @@ myFunction()
 
 //Object
 const person={
-  firstName:"Prince",
-  lastName:"Kumar",
-  number:"235415614035",
+  firstName:"Utkarsh",
+  lastName:"Tiwari",
+  number:"8563163461355",
 }
 person["id"]="sdfh435h354"
 console.log(person)

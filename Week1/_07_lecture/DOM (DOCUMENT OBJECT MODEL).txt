@@ -27,9 +27,9 @@ document.cipherPara
 
 document.val
   <form name="val">
-    <input name="name" value="Shantanu">
+    <input name="name" value="ut">
   </form>
 document.val.name
-  <input name="name" value="Shantanu">
+  <input name="name" value="ut">
 docuent.val.name.value
 "Shantanu"

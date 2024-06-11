@@ -1,6 +1,6 @@
 let person = {
-  firstname : "Shantanu",
-  lastname : "Shubam",
+  firstname : "Utkarsh",
+  lastname : "Tiwari",
   getFullName: function(){
     return "The name of the person is $(person.firstName) $(person.lastName)";
   },
@@ -18,8 +18,8 @@ function person(firstName,lastName){
   this.lastName = lastName;
 }
 
-let person3 = new person("Shantanu","Shubam");
-let person2 = new person("Anurag","Mishra");
+let person3 = new person("Utkarsh","Tiwari");
+let person2 = new person("Sagar","Mishra");
 
 console.log(person3.firstName);
 console.log("$(person2.firstName) $(person2.lastName)");
@@ -32,7 +32,7 @@ const coder = {
 };
 
 const me = Object.create(coder);
-me.name = "Shantanu Shubam";
+me.name = "Utkarsh Tiwari";
 me.isStudying = true;
 me.printIntroduction();
 
@@ -90,7 +90,7 @@ getDetails(){
   }
 }
 
-let person5 = new  Person("Shantanu", 24);
+let person5 = new  Person("Utkarsh", 24);
 person1.addAddress("Kolkata");
 person1.getDetails();
 
@@ -112,7 +112,7 @@ let getDetails_NoAccess = function(){
   } 
 }
 
-let person6 = new  Person("Shantanu", "Shubham");
+let person6 = new  Person("Utkarsh", "Sagar");
 
 console.log(perosn1.firstName);
 console.log(person1.getDetails_NoAccess());
@@ -141,10 +141,10 @@ class Student extends Person{
     };
   }
 }
-let person1 = new  Person("Shantanu", "Shubham");
+let person1 = new  Person("Utkarsh", "Sagar");
 
 console.log(perosn1.firstName);
 console.log(person1.getDetails_NoAccess());
 
-let studemt1 = new Student("Anurag","Mishra", 20);
+let studemt1 = new Student("Sagar","Mishra", 20);
 console.log(student1.getDetails());
